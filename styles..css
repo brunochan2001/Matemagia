@@ -34,6 +34,7 @@ body{
 .titulo{
     grid-area: titulo;
     height: 20%;
+    text-align: center;
 }
 .img{
     width: 100%;
@@ -73,6 +74,81 @@ body{
 
 
 
+/* Grid Circulo */
+.grid-circulo{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 20% 15% 15% 50%;
+    grid-template-areas: 
+    "cabe content-1 content-2"
+    "cabe sidebar sidebar "
+    "cabe sidebar2 sidebar2"
+    "footer footer footer";
+  }
+  
+  .cabe{
+    grid-area: cabe;  
+    /* background-color: royalblue; */
+    text-align: center;
+    padding-top: 30px;
+    
+  }
+  
+  .content-1{
+    grid-area: content-1;
+    text-align: justify;
+    padding-top: 30px;
+    background-color: #333;
+    color: #fff;
+    
+  }
+  .content-2{
+    grid-area: content-2;
+    text-align: justify;
+    padding-top: 30px;
+    background-color: #333;
+    color: #fff;
+  }
+  .Sidebar{
+    grid-area: sidebar;
+    /* background-color: slategray; */
+    text-align: center;
+    padding-top: 30px;
+    
+    
+  }
+  .Sidebar-2{
+    grid-area: sidebar2;
+    /* background-color: teal; */
+    text-align: center;
+    padding: 30px 0 ;
+    
+
+    
+  }
+  .footer{
+    grid-area: footer;
+    margin:0;
+    /* background-color: red; */
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
+ 
+  }
+
+.text-circulo{
+padding: 0 30px;
+}
+  .img-circulo{
+      width: 100px;
+  }
+  .img-ebook{
+      height: 80%;
+      padding-top: 30px;
+        }
+  
+
 
 
 
@@ -109,6 +185,7 @@ body{
     }
     .titulo{
         grid-area: titulo;
+        text-align: center;
     }
     .img{
         width: 100%;
@@ -143,5 +220,6 @@ body{
     .texto{
         width: 50%;
         text-align: center;
+        padding-top: 30px;
     }
 }
