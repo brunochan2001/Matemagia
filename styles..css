@@ -35,6 +35,7 @@ body{
     grid-area: titulo;
     height: 20%;
     text-align: center;
+    
 }
 .img{
     width: 100%;
@@ -75,6 +76,15 @@ body{
 
 
 /* Grid Circulo */
+.title2{
+
+    margin-top: 80px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+
 .grid-circulo{
     margin-top: 40px;
     display: grid;
@@ -117,12 +127,15 @@ body{
     padding-top: 30px;
     
     
+    
+    
   }
   .Sidebar-2{
     grid-area: sidebar2;
     /* background-color: teal; */
     text-align: center;
     padding: 30px 0 ;
+    border: solid 2px rgb(15, 2, 2)
     
 
     
@@ -140,14 +153,86 @@ body{
 .text-circulo{
 padding: 0 30px;
 }
-  .img-circulo{
-      width: 100px;
-  }
-  .img-ebook{
-      height: 80%;
-      padding-top: 30px;
-        }
+.img-circulo{
+width: 100px;
+}
+.img-ebook{
+height: 80%;
+padding-top: 30px;
+}
   
+
+
+
+/* GRID CUADRADO */
+.grid-cuadrado{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "cabe1 content3 content4"
+    "cabe1 sidebar3 sidebar3 "
+    "cabe1 sidebar4 sidebar4"
+    "footer1 footer1 footer1";
+}
+.cabe1{
+    grid-area: cabe1;  
+    background-color: royalblue;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+
+    
+  }
+  
+  .content-3{
+    grid-area: content3;
+    text-align: justify;
+    padding-top: 20px;
+    background-color: #333;
+
+  }
+  .content-4{
+    grid-area: content4;
+    text-align: justify;
+    padding-top: 20px;
+    background-color: blue;
+    
+    
+  }
+  .Sidebar-3{
+    grid-area: sidebar3;
+    text-align: center;
+    padding-top: 30px;
+    background-color:chartreuse;
+   
+    
+  }
+.Sidebar-4{
+    grid-area: sidebar4;
+    text-align: center;
+    padding: 30px 0 ;
+    border: solid 2px rgb(15, 2, 2)
+    
+    
+  }
+.footer1{
+    grid-area: footer1;
+    background-color: red;
+  }
+
+.img-cuadrado{
+width:90%;
+}
+.text-cuadrado{
+padding: 0 30px;
+}
+
+
+
+
 
 
 
@@ -181,6 +266,7 @@ padding: 0 30px;
         grid-template-areas: 
         "titulo videos"
         "imagen videos";
+        
     
     }
     .titulo{
@@ -222,4 +308,60 @@ padding: 0 30px;
         text-align: center;
         padding-top: 30px;
     }
+
+
+    /* Grid circulo */
+    .title2{
+        
+        background-color: rgb(70, 39, 39);
+        text-align: center;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .grid-circulo{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 20% 30% 30% 20%;
+        grid-template-rows: 30% 35% 35%;
+        grid-template-areas:
+        "cabe content-1 content-2 footer"
+        "cabe sidebar sidebar footer "
+        "cabe sidebar2 sidebar2 footer"      
+      }
+
+      .cabe{
+        grid-area: cabe;     
+      }
+      
+      .content-1{
+        grid-area: content-1;
+        background-color: red;
+      }
+
+      .content-2{
+        grid-area: content-2;  
+        background-color: red;
+      }
+
+      .Sidebar{
+        grid-area: sidebar;
+        border: solid 1px black;
+      }
+
+      .Sidebar-2{
+        grid-area: sidebar2;
+        border: solid 1px black;
+        margin-bottom: 20px;
+        
+      }
+      .footer{
+        grid-area: footer;
+      }
+    
+    
+
+
+
+
 }
