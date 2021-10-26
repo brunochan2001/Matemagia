@@ -26,3 +26,44 @@ form4.addEventListener(`submit`,(e) =>{
     e.target.reset()
     }
 })
+
+
+
+const form3 = document.getElementById(`form3`)
+const resultElement3 = document.getElementById(`result3`)
+
+form3.addEventListener(`submit`,(e)=>{
+    e.preventDefault()
+    if (e.target.number6.value != `` && e.target.number7.value !=``) {
+        const number6 = parseInt(e.target.number6.value)
+        const number7 = parseInt(e.target.number7.value)
+        const result3 = number6 * number7
+        resultElement3.textContent = `El area del Triangulo es = ${result3} `
+        
+        e.target.reset()
+
+
+    
+    }
+
+})
+
+
+const form1 = document.getElementById(`form1`)
+const resultElement1 = document.getElementById(`result1`)
+
+form1.addEventListener(`submit`,(e)=>{
+    e.preventDefault()
+    if (e.target.number3.value != `` && e.target.number4.value !=``) {
+        const number3 = parseInt(e.target.number3.value)
+        const number4 = parseInt(e.target.number4.value)
+        const result1 = number3 * number4
+        resultElement1.textContent = `El area del Rectangulo es = ${result1} `
+        
+        e.target.reset()
+
+
+      
+    }
+
+})
