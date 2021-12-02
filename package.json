@@ -1,0 +1,23 @@
+{
+  "name": "matemagia",
+  "version": "1.0.0",
+  "description": "Proyecto donde aplicamos JS para el calculo de areas de figuras geometricas",
+  "main": "\u001b[\u001b[index.html)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunochan2001/Matemagia.git"
+  },
+  "author": "Bruno Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunochan2001/Matemagia/issues"
+  },
+  "homepage": "https://github.com/brunochan2001/Matemagia#readme",
+  "dependencies": {
+    "prettier": "^2.5.0"
+  }
+}
