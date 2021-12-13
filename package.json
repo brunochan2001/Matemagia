@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/brunochan2001/Matemagia#readme",
   "dependencies": {
-    "prettier": "^2.5.0"
+    "prettier": "^2.5.1"
   }
 }

@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (min-width: 360px){
-body{
-  font-size: 9px;
-}
-.desactive{
-  display: none;
-}
-.text-cuadrado-1 {
-  padding: 0px 30px;
-}
+@media screen and (min-width: 360px) {
+  body {
+    font-size: 9px;
+  }
+  .desactive {
+    display: none;
+  }
+  .text-cuadrado-1 {
+    padding: 0px 30px;
+  }
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -160,7 +160,7 @@ body {
 .text-circulo {
   padding: 0 0px;
 }
-.text-circulo-1{
+.text-circulo-1 {
   padding: 0 20px;
 }
 .img-circulo {
@@ -170,7 +170,7 @@ body {
   height: 80%;
   padding-top: 30px;
 }
-input{
+input {
   width: 16vw;
 }
 /* GRID CUADRADO */
@@ -447,7 +447,7 @@ input{
 }
 
 @media screen and (min-width: 1024px) {
-  body{
+  body {
     font-size: 16px;
   }
   .header nav {
@@ -457,7 +457,6 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
   }
 
   .nav > a {
@@ -509,9 +508,9 @@ input{
     text-align: center;
     padding-top: 30px;
   }
-.desactive{
-  display: block;
-}
+  .desactive {
+    display: block;
+  }
   /* Grid circulo */
   .title2 {
     background-color: blue;
@@ -609,9 +608,9 @@ input{
   .img-cuadrado {
     width: 70%;
   }
-  
+
   .img-baldor {
-    height: 70;
+    height: 20vw;
     width: 60%;
   }
 
