@@ -1,6 +1,6 @@
 ## MATEMAGIA
 
-<img src="/imagenes/Portada.png" alt="img"/>
+<img src="/assets/readme.png" alt="img"/>
 
 ## Introduccion
 

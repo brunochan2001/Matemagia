@@ -6,7 +6,7 @@
   align-items: center;
   padding: 10px;
   border-bottom: #fff solid 1px;
-  height: 60px;
+  
 }
 
 .nav > a {
@@ -42,7 +42,7 @@
 
     flex-direction: row;
     justify-content: space-around;
-  
+    height: 60px;
   }
   
   .nav > a {
