@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  border-bottom: #fff solid 1px;
 }
 
 .nav > a {

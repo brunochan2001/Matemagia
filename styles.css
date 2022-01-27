@@ -9,7 +9,7 @@ body {
   background-image: url(https://p4.wallpaperbetter.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 280px) {
   h1 {
     font-size: 20px;
     text-align: center;
@@ -26,5 +26,57 @@ body {
     color: #fff;
   }
   input[type='submit'] {
+    box-shadow: 0 0.25rem 0.5rem 0.125rem #20232a;
+    border: #20232a solid 1px;
+    background-color: #fff;
+    border-radius: 14px;
+    font-size: 9px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  input[type='number'] {
+    box-shadow: 0 0.25rem 0.5rem 0.125rem #20232a;
+    border: #20232a solid 1px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+    max-width: 170px;
+  }
+  label {
+    color: #fff;
+    font-size: 10px;
+  }
+  form {
+    max-width: 310px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .form-column {
+    flex-direction: column;
+  }
+  .result {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .result:hover {
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 375px) {
+  input[type='submit'] {
+    font-size: 14px;
+  }
+  input[type='number'] {
+    font-size: 14px;
+  }
+  label {
+    font-size: 14px;
   }
 }
