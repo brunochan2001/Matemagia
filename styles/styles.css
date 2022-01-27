@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: url(https://p4.wallpaperbetter.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg);
+  background-image: url(/assets/fondo-body.jpg);
 }
 
 @media (min-width: 280px) {
@@ -78,5 +78,37 @@ body {
   }
   label {
     font-size: 14px;
+  }
+}
+@media (min-width:1024px){
+
+  h1{
+    font-size: 60px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 18px;
+  }
+  input[type=submit]{
+    font-size: 18px;
+    padding: 10px;
+  }
+  input[type=number]{
+    max-width: 400px;
+   padding: 10px;
+    font-size: 18px;
+  }
+  label{
+    font-size: 18px;
+  }
+  form{
+    max-width: 480px;
+  }
+  .result{
+    padding: 10px;
+    font-size: 18px;
+
   }
 }

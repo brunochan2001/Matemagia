@@ -6,6 +6,7 @@
   align-items: center;
   padding: 10px;
   border-bottom: #fff solid 1px;
+  height: 60px;
 }
 
 .nav > a {
@@ -13,4 +14,42 @@
   line-height: 30px;
   color: #fff;
   text-decoration: none;
+  padding: 6px;
 }
+.nav>a:hover{
+  color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+@media(min-width:520px){
+  .nav {
+
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  
+  .nav > a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media(min-width:1024px){
+  .nav {
+
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  
+  .nav > a {
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+

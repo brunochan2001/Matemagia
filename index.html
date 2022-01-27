@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/styles.css" />
-    <link rel="stylesheet" href="/styles/" />
+    <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <title>Matemagia</title>
@@ -14,39 +14,43 @@
   <body>
     <header>
       <nav class="nav">
-        <a href="#">Area Circulo</a>
-        <a href="#">Area Cuadrado</a>
-        <a href="#">Area Triangulo</a>
-        <a href="#">Area Rectangulo</a>
+        <a href="#Circulo">Area Circulo</a>
+        <a href="#Cuadrado">Area Cuadrado</a>
+        <a href="#Triangulo">Area Triangulo</a>
+        <a href="#Rectangulo">Area Rectangulo</a>
       </nav>
     </header>
     <main>
       <section class="section-1">
-        <h1 class="target">Calcula las Areas de las Figuras Geometricas</h1>
-        <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
-        <aside>
+        <h1 class="target ">Calcula las Areas de las Figuras Geometricas</h1>
+      
+        <img src="/assets/imagen-tutor.jpg" alt="img" class="section-1-img " />
+        <article>
           <h2 class="target">Quiza te Interese</h2>
-          <div>
-            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
-            <p></p>
+          <div class="flex-desktop">
+          <div class="section-noti">
+            <img src="/assets/noticia-1.jpg" alt="img" class="noti-1-img" />
+            <p>¿En qué consiste la bioinformática y qué debes estudiar para dedicarte a ella?</p>
           </div>
-          <div>
-            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
-            <p></p>
+          <div class="section-noti">
+            <img src="/assets/noticia-2.jpg" alt="img" class="noti-1-img" />
+            <p>¿Cuáles son los perfiles más demandados en marketing digital?</p>
           </div>
-          <div>
-            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
-            <p></p>
+          <div class="section-noti">
+            <img src="/assets/noticia-2.jpg" alt="img" class="noti-1-img" />
+            <p>¿Cómo nos ayuda la tecnología a gestionar el aislamiento?</p>
           </div>
-        </aside>
+        </div>
+        </article>
+      
       </section>
       <section class="section-1">
-        <article class="article-area">
+        <article class="article-area" id="Circulo">
           <h2>Area del Circulo</h2>
-          <div class="grid-tablet grid-desktop">
+          <div >
             <aside class="aside-area">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOr8fHExwlTRMNCUZ7LZZTkVbeGZnTKeAg5E6rWif3hlJCZLoD5M6DgB1s5AKJSbswkg&usqp=CAU"
+                src="/assets/area-circulo.jfif"
                 alt="img"
                 width="100px"
                 class="img-figure"
@@ -85,23 +89,22 @@
             <aside class="aside-area">
               <p>
                 Técnicas y hábitos de estudio que te lleven al éxito académico
-                (EBOOK)
               </p>
               <br />
               <img
-                src="https://img.clasf.pe/2019/04/26/Libro-Consultor-Matemticas-20190426185800.6999050015.jpg"
+                src="/assets/book-circulo.jpg"
                 alt="img"
                 class="img-book"
               />
             </aside>
           </div>
         </article>
-        <article class="article-area">
+        <article class="article-area" id="Cuadrado">
           <h2>Area del Cuadrado</h2>
           <div class="grid-tablet grid-desktop">
             <aside class="aside-area">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOr8fHExwlTRMNCUZ7LZZTkVbeGZnTKeAg5E6rWif3hlJCZLoD5M6DgB1s5AKJSbswkg&usqp=CAU"
+                src="assets/area-cuadrado.png"
                 alt="img"
                 width="100px"
                 class="img-figure"
@@ -138,22 +141,22 @@
               <p id="result2" class="result"></p>
             </div>
             <aside class="aside-area">
-              <p>Algebra-Baldor</p>
+              <p>Algebra</p>
               <br />
               <img
-                src="https://img.clasf.pe/2019/04/26/Libro-Consultor-Matemticas-20190426185800.6999050015.jpg"
+                src="/assets/book-cuadrado.jpg"
                 alt="img"
                 class="img-book"
               />
             </aside>
           </div>
         </article>
-        <article class="article-area">
+        <article class="article-area" id="Triangulo">
           <h2>Area Del Triangulo</h2>
           <div class="grid-tablet grid-desktop">
             <aside class="aside-area">
               <img
-                src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-del-area-de-un-triangulo-rectangulo.png"
+                src="/assets/area-triangulo.png"
                 alt="img"
                 width="100px"
                 class="img-figure"
@@ -194,24 +197,24 @@
             </div>
             <aside class="aside-area">
               <p>
-                El placer de la x: una visita guiada por las matemáticas, del
+               Geometria: una visita guiada por las matemáticas, del
                 uno al infinito
               </p>
               <br />
               <img
-                src="https://img.clasf.pe/2019/04/26/Libro-Consultor-Matemticas-20190426185800.6999050015.jpg"
+                src="/assets/book-triangulo.jpg"
                 alt="img"
                 class="img-book"
               />
             </aside>
           </div>
         </article>
-        <article class="article-area">
+        <article class="article-area" id="Rectangulo">
           <h2>Area Del Rectangulo</h2>
           <div class="grid-tablet grid-desktop">
             <aside class="aside-area">
               <img
-                src="https://matemagia.netlify.app/imagenes/rectangulo.jpeg"
+                src="/assets/area-rectangulo.png"
                 alt="img"
                 width="100px"
                 class="img-figure"
@@ -248,10 +251,10 @@
               <p id="result4" class="result"></p>
             </div>
             <aside class="aside-area">
-              <p>Libro Trigonometria - Lumbreras</p>
+              <p>Libro de Geometria</p>
               <br />
               <img
-                src="https://img.clasf.pe/2019/04/26/Libro-Consultor-Matemticas-20190426185800.6999050015.jpg"
+                src="assets/book-rectangulo.jpg"
                 alt="img"
                 class="img-book"
               />
