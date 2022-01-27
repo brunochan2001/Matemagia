@@ -14,3 +14,34 @@
   color: #fff;
   text-decoration: none;
 }
+@media(min-width:520px){
+  .nav {
+
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  
+  .nav > a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media(min-width:1024px){
+  .nav {
+
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  
+  .nav > a {
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
