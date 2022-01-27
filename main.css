@@ -1,0 +1,27 @@
+/* SECTION -1 */
+.section-1 {
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+}
+.section-1-img {
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/* Section-area */
+.article-area {
+  background-color: rgba(22, 22, 25, 0.9);
+  padding: 5px;
+  border-radius: 10px;
+}
+.aside-area {
+  /* background-color: aqua; */
+  margin-top: 1px;
+}
+.content {
+  /* background-color: blue; */
+  margin-top: 10px;
+}

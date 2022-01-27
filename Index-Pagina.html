@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles..css" />
+
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/header.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/footer.css" />
     <title>Matemagia</title>
   </head>
 
   <body>
-    <header class="header">
+    <header>
       <nav class="nav">
         <a href="#">Crear Cuenta</a>
         <a href="#">Iniciar Sesion</a>
@@ -18,46 +22,48 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section-1">
         <h1>Aprende a calcular el Area de las Figuras Geometricas</h1>
-        <img src="/imagenes/thumb-l.jpg" alt="img" />
+        <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
         <aside>
           <h2>Quiza te interese</h2>
           <div>
-            <img src="" alt="" />
+            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
             <p></p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
             <p></p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="/imagenes/thumb-l.jpg" alt="img" class="section-1-img" />
             <p></p>
           </div>
         </aside>
       </section>
-      <section>
-        <article>
+      <section class="section-1">
+        <article class="article-area">
           <h2>Area del Circulo</h2>
-          <div class="grid">
-            <aside>
-              <img src="/imagenes/descarga.png" alt="img" />
-              <p class="text">
+          <div class="grid-tablet grid-desktop">
+            <aside class="aside-area">
+              <img src="/imagenes/thumb-l.jpg" alt="img" width="100px" />
+              <p>
+                <br />
                 Para calcular el área de un círculo debes antes obtener o
                 calcular el radio.
               </p>
             </aside>
             <div class="content">
-              <p class="text">
+              <p>
                 La fórmula que debes aplicar para calcular el área de un círculo
                 es:
+                <br />
                 <br />
                 A = Π x r²
               </p>
             </div>
             <div class="content">
-              <p class="text">
+              <p>
                 En este artículo de como te explicamos paso a paso cómo sacar el
                 área de un círculo.
               </p>
@@ -69,18 +75,16 @@
                 <input type="submit" value="calculate" />
               </form>
             </div>
-            <div class="aside">
-              <p class="text-circulo" id="result2"></p>
+            <div class="content">
+              <p id="result2">PIPI</p>
             </div>
-            <aside>
-              <p class="text">
+            <aside class="aside-area">
+              <p>
                 Técnicas y hábitos de estudio que te lleven al éxito académico
                 (EBOOK)
               </p>
-              <img
-                src="/imagenes/ebook-gratis-tecnicas-estudio-universidad.jpeg"
-                alt="img"
-              />
+              <br />
+              <img src="/imagenes/thumb-l.jpg" alt="img" width="100px" />
             </aside>
           </div>
         </article>
